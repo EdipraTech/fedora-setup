@@ -9,7 +9,7 @@ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfre
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 
-sudo dnf install -y git bismuth neovim brave-browser discord code nodejs openrgb
+sudo dnf install -y git bismuth neovim brave-browser discord code nodejs openrgb automake gcc-c++ qt5-qtbase-devel qt5-linguist hidapi-devel libusbx-devel mbedtls-devel
 
 sudo flatpak install spotify
 
